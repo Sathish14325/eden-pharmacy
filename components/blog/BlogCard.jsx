@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const BlogCard = ({ id, image, date, title }) => {
+const BlogCard = ({ image, date, title }) => {
   return (
     <div
       className={`grid-item relative shadow-md group text-center`} // Dynamic height
