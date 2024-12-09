@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Eden Pharmacy
 
-## Getting Started
+Welcome to the **Eden Pharmacy** website! This is a static single-page website built using **Next.js**, designed to showcase a clean and user-friendly interface for a fictional pharmacy.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Static Content:** All content is statically rendered for fast performance and SEO optimization.
+- **Responsive Design:** Fully responsive, optimized for desktop and mobile devices.
+- **Modern UI/UX:** Designed with modern aesthetics for a professional look and feel.
+- **Fast Loading:** Leveraging Next.js features for high performance.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **Framework:** Next.js (React-based)
+- **Styling:** Tailwind CSS for responsive design and utility-first styling
+- **Icons and Graphics:** FontAwesome, HeroIcons, and custom illustrations
+- **Hosting:** Deployed on Vercel for seamless static site hosting
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation and Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these steps to set up and run the project locally:
 
-## Deploy on Vercel
+1. **Clone the Repository:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/YourUsername/Eden-Pharmacy.git
+   cd Eden-Pharmacy
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Eden Pharmacy
+
+Welcome to the **Eden Pharmacy** website! This is a static single-page website built using **Next.js**, designed to showcase a clean and user-friendly interface for a fictional pharmacy.
+
+---
+
+## Features
+
+- **Static Content:** All content is statically rendered for fast performance and SEO optimization.
+- **Responsive Design:** Fully responsive, optimized for desktop and mobile devices.
+- **Modern UI/UX:** Designed with modern aesthetics for a professional look and feel.
+- **Fast Loading:** Leveraging Next.js features for high performance.
+
+---
+
+## Technologies Used
+
+- **Framework:** Next.js (React-based)
+- **Styling:** Tailwind CSS for responsive design and utility-first styling
+- **Icons and Graphics:** FontAwesome, HeroIcons, and custom illustrations
+- **Hosting:** Deployed on Vercel for seamless static site hosting
+
+---
+
+## Installation and Setup
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/YourUsername/Eden-Pharmacy.git
+   cd Eden-Pharmacy
+   ```
+
+# Eden Pharmacy
+
+Welcome to the **Eden Pharmacy** website! This is a static single-page website built using **Next.js**, designed to showcase a clean and user-friendly interface for a fictional pharmacy.
+
+---
+
+## Features
+
+- **Static Content:** All content is statically rendered for fast performance and SEO optimization.
+- **Responsive Design:** Fully responsive, optimized for desktop and mobile devices.
+- **Modern UI/UX:** Designed with modern aesthetics for a professional look and feel.
+- **Fast Loading:** Leveraging Next.js features for high performance.
+
+---
+
+## Technologies Used
+
+- **Framework:** Next.js (React-based)
+- **Styling:** Tailwind CSS for responsive design and utility-first styling
+- **Icons and Graphics:** FontAwesome, HeroIcons, and custom illustrations
+- **Hosting:** Deployed on Vercel for seamless static site hosting
+
+---
+
+## Installation and Setup
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/YourUsername/Eden-Pharmacy.git
+   cd Eden-Pharmacy
+
+   ```
+
+2. **Install Dependencies:**
+
+   ```bash
+   npm install
+
+   ```
+
+3. **Run the Development Server:**
+
+   ```bash
+   npm run dev
+   Open http://localhost:3000 in your browser to see the application running.
+
+   ```
+
+4. **Build for Production:**
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## Deployment
+
+    This project is deployed on Vercel for easy and fast hosting.
+
+To deploy your version:
+
+- 1. Push your code to a GitHub repository.
+- 2. Link the repository to netlify and select the production branch.
+- 3. Deploy the application and get the live URL.
+
+## Contribution
+
+Contributions are welcome! Feel free to fork this repository, create a feature branch, and submit a pull request.
+
+Enjoy exploring the Eden Pharmacy project! 🚀
