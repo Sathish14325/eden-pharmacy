@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <main className="bg-[#E2F5FB] py-10 mx-5 relative">
@@ -18,21 +20,22 @@ const Hero = () => {
           </div>
           {/* 2nd part */}
           <div>
-            <img
+            <Image
               src="/assets/hero/tablet.jpg"
               alt="tablet"
-              className="w-96"
-              loading="lazy"
+              width={384}
+              height={200}
             />
           </div>
           {/* 3rd part */}
           <div className="flex flex-col gap-3 p-5">
             <div className="flex gap-3">
-              <img
+              <Image
                 src="/assets/hero/vitamin.svg"
                 alt="vitamin"
                 className="w-14"
-                loading="lazy"
+                width={56}
+                height={20}
               />
               <div>
                 <h4 className="font-bold text-[#17414F]">Vitamins</h4>
@@ -42,11 +45,11 @@ const Hero = () => {
               </div>
             </div>
             <div className="flex gap-3">
-              <img
+              <Image
                 src="/assets/hero/weight.png"
-                alt="vitamin"
-                className="w-14"
-                loading="lazy"
+                alt="weight"
+                width={56}
+                height={20}
               />
               <div>
                 <h4 className="font-bold text-[#17414F]">Weight Loss</h4>
@@ -57,11 +60,11 @@ const Hero = () => {
               </div>
             </div>
             <div className="flex gap-3">
-              <img
+              <Image
                 src="/assets/hero/foods.png"
-                alt="vitamin"
-                className="w-14"
-                loading="lazy"
+                alt="foods"
+                width={56}
+                height={20}
               />
               <div>
                 <h4 className="font-bold text-[#17414F]">Functional Foods</h4>

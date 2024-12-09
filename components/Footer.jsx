@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <footer className="bg-[#17414F] text-white py-10">
@@ -5,11 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 flex flex-col justify-around md:flex-row gap-6 text-center">
         {/* Phone Number */}
         <div className="bg-[#215D72] flex items-center gap-4 px-6 py-4 rounded-xl shadow-lg">
-          <img
+          <Image
             src="/assets/footer/phone.svg"
             alt="Phone Icon"
-            className="w-10 h-10"
-            loading="lazy"
+            height={40}
+            width={40}
           />
           <div>
             <h4 className="font-semibold text-lg">Phone Number</h4>
@@ -19,11 +21,11 @@ const Footer = () => {
 
         {/* Email Address */}
         <div className="bg-[#215D72] flex items-center gap-4 px-6 py-4 rounded-xl shadow-lg">
-          <img
+          <Image
             src="/assets/footer/mail.svg"
             alt="Email Icon"
-            className="w-10 h-10"
-            loading="lazy"
+            width={40}
+            height={40}
           />
           <div>
             <h4 className="font-semibold text-lg">Email Address</h4>
@@ -33,11 +35,11 @@ const Footer = () => {
 
         {/* Office Location */}
         <div className="bg-[#215D72] flex items-center gap-4 px-6 py-4 rounded-xl shadow-lg">
-          <img
+          <Image
             src="/assets/footer/location.svg"
             alt="Location Icon"
-            className="w-10 h-10"
-            loading="lazy"
+            width={40}
+            height={40}
           />
           <div>
             <h4 className="font-semibold text-lg">Office Location</h4>
@@ -48,11 +50,12 @@ const Footer = () => {
 
       {/* Middle Section */}
       <div className="container mx-auto px-4 py-10 flex flex-col justify-evenly items-start gap-3 md:flex-row">
-        <img
+        <Image
           src="/assets/brand.png"
           alt="Elbrit Logo"
-          className="mx-auto w-52 mb-4"
-          loading="lazy"
+          className="mx-auto mb-4"
+          width={200}
+          height={70}
         />
         <p className="text-sm max-w-xl mx-auto">
           Your health, physical and emotional well-being is important to us. We

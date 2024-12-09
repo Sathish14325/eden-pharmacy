@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const IngredientCard = ({ title, description, image, isWide }) => {
   return (
     <div
@@ -6,11 +8,12 @@ const IngredientCard = ({ title, description, image, isWide }) => {
       }`}
     >
       {/* Image */}
-      <img
+      <Image
         src={image}
         alt={title}
         className="absolute bottom-0 right-0 object-fill"
-        loading="lazy"
+        width={120}
+        height={50}
       />
 
       {/* Content */}
