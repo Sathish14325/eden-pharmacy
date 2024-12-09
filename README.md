@@ -60,9 +60,9 @@ Follow these steps to set up and run the project locally:
 
 To deploy your version:
 
-- 1. Push your code to a GitHub repository.
-- 2. Link the repository to netlify and select the production branch.
-- 3. Deploy the application and get the live URL.
+- Push your code to a GitHub repository.
+- Link the repository to netlify and select the production branch.
+- Deploy the application and get the live URL.
 
 ## Contribution
 
