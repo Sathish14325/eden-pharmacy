@@ -18,7 +18,7 @@ Welcome to the **Eden Pharmacy** website! This is a static single-page website b
 - **Framework:** Next.js (React-based)
 - **Styling:** Tailwind CSS for responsive design and utility-first styling
 - **Icons and Graphics:** FontAwesome, HeroIcons, and custom illustrations
-- **Hosting:** Deployed on Vercel for seamless static site hosting
+- **Hosting:** Deployed on Netlify for seamless static site hosting
 
 ---
 
